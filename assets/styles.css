@@ -22,6 +22,10 @@ html,body{
     object-fit: cover;
 }
 
+section{
+  padding:1rem 0;
+}
+
 .navbar-text{
     font-family: poppins,sans-serif;
     font-size: 1.5rem;
@@ -109,21 +113,86 @@ html,body{
     filter:drop-shadow(1px 1px 20px rgba(232, 227, 78, 0.826));
 }
 
-.container-fluid1{
-  display:flex;
+.container-fluid1 {
+  display: flex;
   flex-direction: column;
-  gap:2rem;
-  top:-20px;
-  
+  gap: 2rem;
 }
 
-.ribbon1 , .ribbon2{
+.ribbon {
   background-color: #ffffff;
-  padding:10px;
+  padding: 1rem;
+  overflow: hidden;       
+  position: relative;
 }
 
-.ribbon1 span , .ribbon2 span{
-  font-weight:bold;
+.ribbon span {
+  display: inline-block;
+  white-space: nowrap;
+  font-weight: bold;
+  font-family: poppins, sans-serif;
+  font-size: 1.5rem;
+  word-spacing: 0.5rem;
+}
+
+.ribbon1 span {
+  animation: scrollRight 16s linear infinite;
+}
+
+.ribbon2 span {
+  animation: scrollLeft 16s linear infinite;
+}
+
+@keyframes scrollRight {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes scrollLeft {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+#resume{
+  border-radius: 4rem;
+  padding:0.5rem 0rem;
+  font-size: 1.5rem;
   font-family: poppins,sans-serif;
-  font-size: 2rem;
+  font-weight: bold;
+  width:10rem;
+  color:bisque;
+  margin:auto;
+  background: url('animated bg.avif');
+  background-size: cover;
+}
+
+#skillset h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: poppins,sans-serif;
+  color:rgb(142, 156, 156);
+  border:2px solid white;
+  width:20%;
+  text-align: center;
+  margin: auto;
+}
+
+#skillset p{
+  text-align: center;
+  font-size:1.5rem;
+  font-weight:bold;
+  color:#00eaff;
+  word-spacing: 0.5rem;
+}
+
+#skillset span{
+   color:#ffffff;
 }
