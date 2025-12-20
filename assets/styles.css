@@ -186,7 +186,7 @@ section{
 
 
 .skill-subtitle {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: #00eaff;
   font-family:poppins,sans-serif;
   font-weight:bolder;
@@ -227,6 +227,7 @@ section{
   cursor: pointer;
 }
 
-.skill-pill:hover i {
-  color: black;
+.project{
+  background:#0b5c7a;
+  border-radius: 2rem;
 }
