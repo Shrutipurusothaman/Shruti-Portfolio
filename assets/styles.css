@@ -107,7 +107,7 @@ section{
 
 
 .img-box img {
-    width: 20rem;
+    width:20rem;
     height: 22rem;
     filter:drop-shadow(1px 1px 20px rgba(232, 227, 78, 0.826));
 }
@@ -299,20 +299,20 @@ section{
   }
 
   #start {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   #middle {
-    font-size: 2.2rem;
+    font-size: 3rem;
   }
 
   #end {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   .img-box img {
     width: 14rem;
-    height: 15rem;
+    height: 14rem;
   }
 
   #resume {
@@ -344,6 +344,6 @@ section{
   }
 
   .navbar .nav-link:hover {
-    color: #ffe4c4;
+    color:black;
   }
 }
