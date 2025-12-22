@@ -1,12 +1,12 @@
 ## Responsive-Portfolio
 
-#TECH STACK:
+# TECH STACK:
 + HTML
 + CSS(Bootstrap)
 + Javascript
 
-# BOOTSTRAP <img width="40" height="40" alt="image" src="https://github.com/user-attachments/assets/56a3483f-82de-46be-8eac-90b9ea3ec404" />
- 
+# BOOTSTRAP <img width="40" height="40" alt="image" src="https://github.com/user-attachments/assets/84de0b5b-3153-4e09-92a4-81ccb7b229b8" />
+
 + Bootstrap is a free and popular frontend-framework.
 + It is used for creating mobile friendly and responsive web design.
 + Bootstrap is compatible with all modern browsers (Chrome, Firefox, Internet Explorer, Edge, Safari, and Opera)
